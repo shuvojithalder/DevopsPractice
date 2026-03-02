@@ -1,4 +1,17 @@
 name: 'Shuvojit Halder'
+
 role: 'Developer'
+
 experience_years: 10
+
 learning: true
+
+tools: 
+    - Github
+    - Jenkins
+    - Kubernetes
+    - Terraform
+    - Docker
+
+hobbies: ['Learning','Football','Chess']    
+    
