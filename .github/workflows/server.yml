@@ -5,7 +5,7 @@ on:
 
 jobs:
   script:
-    run-on : ubuntu-latest
+    runs-on : ubuntu-latest
 
     steps:
       - name: Start up script runner
