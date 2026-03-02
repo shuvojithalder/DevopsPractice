@@ -1,4 +1,6 @@
 name: myrunner
+on :
+   workflow_dispatch: 
 jobs:
   taskrun:
      runs-on: ubuntu-latest
