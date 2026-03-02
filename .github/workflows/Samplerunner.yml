@@ -11,3 +11,6 @@ jobs:
            
         - name: Check Person yaml file
           run: cat ./.github/workflows/person.yml
+
+        - name: Check Person yaml file
+          run: cat ./.github/workflows/server.yml
