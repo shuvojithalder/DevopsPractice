@@ -1,0 +1,8 @@
+name: myrunner
+jobs:
+  taskrun:
+     runs-on: ubuntu-latest
+
+     steps:
+        - name: Check Person yaml file
+          run: cat ./.github/workflows/person.yml
