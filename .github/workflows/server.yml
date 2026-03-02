@@ -1,0 +1,17 @@
+name: startup_script
+
+on:
+ workflow_dispatch:
+
+jobs:
+  script:
+    run-on : ubuntu-latest
+
+    steps:
+      - name: Start up script runner
+        runs: sudo apt-get update
+
+
+
+
+   
