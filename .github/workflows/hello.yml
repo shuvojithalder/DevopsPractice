@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    workflow_dis[patch:
+    
 jobs:
   greet:
     runs-on: ubuntu-latest
