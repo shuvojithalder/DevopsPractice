@@ -13,5 +13,18 @@ tools:
     - Terraform
     - Docker
 
-hobbies: ['Learning','Football','Chess']    
+hobbies: ['Learning','Football','Chess']   
+
+Server:
+  name: EC2
+  IP: 10.10.132.24
+  Port: 80
+database:
+  host: 10.10.30.24:3304
+  name: educationdb
+  credential:
+    username: sa
+    password: null
+  
+       
     
