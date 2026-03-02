@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Start up script runner
-        runs: sudo apt-get update
+        run: sudo apt-get update
 
 
 
