@@ -1,22 +1,13 @@
 name: startup_script
-
-on:
- workflow_dispatch:
-
-jobs:
-  script:
-    runs-on : ubuntu-latest
-
-    steps:
-      - name: block style
-        run: |
-          sudo apt-get update 
-          git -v
-
-      - name: fold style
-        run: >
-         sudo apt-get update 
-          git -v  
+block-style: |
+    sudo apt-get update
+    sudo apt-get install -y docker.io
+    systemctl start docker   
+  
+fold-style: >
+    This script will check the status 
+    of the service and then 
+    restart it if necessary.
 
 
 
