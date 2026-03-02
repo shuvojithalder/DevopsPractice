@@ -9,7 +9,9 @@ jobs:
 
     steps:
       - name: Start up script runner
-        run: sudo apt-get update | git -v
+        run: |
+          sudo apt-get update 
+          git -v
 
 
 
