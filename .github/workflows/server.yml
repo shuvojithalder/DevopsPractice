@@ -8,10 +8,15 @@ jobs:
     runs-on : ubuntu-latest
 
     steps:
-      - name: Start up script runner
+      - name: block style
         run: |
           sudo apt-get update 
           git -v
+
+      - name: fold style
+        run: >
+         sudo apt-get update 
+          git -v  
 
 
 
